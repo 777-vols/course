@@ -1,0 +1,163 @@
+.my_reg_form h2{
+	font-family: 'Yatra One', cursive;
+	font-weight: 100;
+	color: #eb76fa;
+	font-size: 35px;
+	margin: 10px 0px 10px 0px;
+}
+
+
+.window{
+	border-radius: 10px;
+	width: 450px;
+	padding: 15px 90px 30px 90px;
+	position: fixed;
+	top: 55%;
+	left: 50%;
+	background:rgba(67, 11, 107, 0.8);
+	text-align: center;
+	border: 2px solid #fff;
+	z-index: 1100;
+	opacity: 0;
+	visibility: hidden; 
+	transition: 0.9s;
+	transform: translate(-50%, 0);
+
+	transform: perspective(600px) translate(-50%, -200%) rotateX(45deg);
+}
+
+.window:target{
+	opacity: 1;
+	visibility: visible;
+	transform: perspective(600px) translate(-50%, -45%) rotateX(0deg);
+}
+
+.my_reg_form input[type="text"],.my_reg_form input[type="password"],.my_reg_form input[type="email"],.my_reg_form input[type="tel"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 10px auto;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 16px;
+	border: 2px solid #fff;
+	padding: 5px 10px;
+	width: 200px;
+	outline: none;
+	color: rgb(240, 207, 250);
+	border-radius: 25px;
+	transition: 0.25s;
+	letter-spacing: 1px;
+}
+
+.my_reg_form input[type="text"]::-webkit-input-placeholder, .my_reg_form input[type="password"]::-webkit-input-placeholder,.my_reg_form input[type="tel"]::-webkit-input-placeholder,.my_reg_form input[type="email"]::-webkit-input-placeholder{
+	color: #fff;
+
+}
+
+.my_reg_form input[type="text"]:focus,.my_reg_form input[type="password"]:focus,.my_reg_form input[type="email"]:focus,.my_reg_form input[type="tel"]:focus{
+	width: 270px;
+	border-color: #bd1e53;
+}
+
+.closereg{
+	color: #fff;
+	position: absolute;
+	font-size: 25px;
+	font-weight: 100;
+	right: 5%;
+	top: 2%;
+}
+
+.my_reg_form{
+	width: 270px;
+	margin: 0 auto;
+	text-align: center;
+}
+.input{
+	width: 250px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.radio{
+	margin-bottom: 10px;
+}
+
+.my_reg_form input[type="submit"]{
+	font-family: 'Assistant', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	width: 150px;
+	padding: 7px 7px;
+	background: rgba(87, 0, 158, 0.5);
+	border: solid 2px #fff;
+	border-radius: 30px;
+	transition: 0.4s;
+	text-decoration: none;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+.my_reg_form input[type="submit"]:hover{
+	background: rgba(189, 30, 83, 0.7);
+	border: solid 2px #e9a4f7;
+	width: 170px;
+}
+
+.concept{
+	font-size: 15px;
+	color: #fff;
+}
+
+.my_reg_form input[type="checkbox"]{
+	display: none;
+}
+
+.my_reg_form input[type="radio"]{
+	display: none;
+}
+
+.window label{
+	padding-left: 20px;
+}
+
+.window label::before{
+content: '';
+display: inline-block;
+width: 15px;
+height: 15px;
+background-color: #ff92ff;
+vertical-align: middle;
+margin-right: 10px;
+border: solid 1px #fff;
+transition: 0.1s;
+}
+
+.contRegistr{
+	margin: 5px 0;
+}
+
+.my_reg_form input[type="checkbox"]:checked+label::before{
+	background-color: rgb(42, 89, 230);
+	border-radius: 50%;
+	content: '\2713';
+	font-size: 11px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+
+.my_reg_form input[type="radio"]:checked+label::before{
+	background-color: rgb(42, 89, 230);
+	border-radius: 50%;
+	content: '\2713';
+	font-size: 11px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}

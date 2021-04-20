@@ -1,0 +1,132 @@
+.authoriz{
+	border-radius: 10px;
+	width: 520px;
+	padding: 30px 90px 30px 90px;
+	position: fixed;
+	top: 55%;
+	left: 50%;
+	background:rgba(67, 11, 107, 0.8);
+	text-align: center;
+	border: 2px solid #fff;
+	z-index: 1000;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.9s;
+	transform: perspective(600px) translate(-50%, -200%) rotateX(45deg);
+}
+
+.authoriz:target{
+	opacity: 1;
+	visibility: visible;
+	transform: perspective(600px) translate(-50%, -45%) rotateX(0deg);
+}
+
+.authoriz h1{
+	font-family: 'Yatra One', cursive;
+	font-weight: 100;
+	color: #eb76fa;
+	font-size: 35px;
+}
+
+.close{
+	color: #fff;
+	position: absolute;
+	font-size: 25px;
+	font-weight: 100;
+	right: 3%;
+	top: 3%;
+}
+
+.authoriz input[type="text"],.authoriz input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	font-size: 17px;
+	border: 3px solid #fff;
+	padding: 10px 10px;
+	width: 200px;
+	outline: none;
+	color: rgb(240, 207, 250);
+	border-radius: 25px;
+	transition: 0.25s;
+	letter-spacing: 1px;
+}
+
+.authoriz input[type="text"]::-webkit-input-placeholder, .authoriz input[type="password"]::-webkit-input-placeholder{
+	color: #fff;
+
+}
+
+.authoriz input[type="text"]:focus,.authoriz input[type="password"]:focus{
+	width: 270px;
+	border-color: #bd1e53;
+}
+
+.authoriz input[type="submit"]{
+	font-family: 'Assistant', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	width: 120px;
+	padding: 7px 7px;
+	background: rgba(87, 0, 158, 0.5);
+	border: solid 2px #fff;
+	border-radius: 30px;
+	transition: 0.4s;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.authoriz input[type="submit"]:hover{
+	background: rgba(189, 30, 83, 0.7);
+	border: solid 2px #e9a4f7;
+	width: 150px;
+}
+
+.forg{
+	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.forg:hover{
+	color: rgb(255, 0, 234);
+	font-weight: 800;
+}
+
+.conta{
+	margin-top: 15px;
+}
+
+.contreg{
+	border: 2px solid #fff;
+	border-radius: 20px;
+	width: 35%;
+	padding-bottom: 1%;
+	transition: 0.5s;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(87, 0, 158, 0.5);
+}
+
+.reg{
+	font-family: 'Assistant', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+	letter-spacing: 1px;
+}
+
+.contreg:hover{
+	background: rgba(189, 30, 83, 0.7);
+	width: 43%;
+}
