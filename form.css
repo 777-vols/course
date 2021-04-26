@@ -66,7 +66,7 @@
 	border-color: #bd1e53;
 }
 
-.authoriz input[type="submit"]{
+.authoriz input[type="button"]{
 	font-family: 'Assistant', sans-serif;
 	font-size: 15px;
 	font-weight: 700;
@@ -81,7 +81,7 @@
 	letter-spacing: 1px;
 }
 
-.authoriz input[type="submit"]:hover{
+.authoriz input[type="button"]:hover{
 	background: rgba(189, 30, 83, 0.7);
 	border: solid 2px #e9a4f7;
 	width: 150px;
