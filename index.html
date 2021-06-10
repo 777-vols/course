@@ -1,0 +1,518 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Noto+Sans+JP:wght@300&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+	<!------------------------Для формы авторизация ------------>
+	<link rel="stylesheet" href="form.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+	<!-----------------------Для формы регистрация--------------->
+	<link rel="stylesheet" href="formregistr.css">
+
+
+
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+
+	<title>Traveler in Belarus</title>
+
+</head>
+
+<body>
+
+	<!-- Preloader -->
+	<div class="mask">
+		<div class="loader"></div>
+	</div>
+	<!--------------->
+
+	<!--------------------- Authorization Form ------------------->
+	<form id="popup" class="authoriz" method="post">
+		<a href="#player" class="close">
+			<i class="fas fa-times"></i>
+		</a>
+		<h1>Authorization</h1>
+		<div class="contreg">
+			<a class="reg" href="#WindRegistr">Registration</a>
+		</div>
+		<input type="text" placeholder="Username">
+		<input type="password" placeholder="Password">
+		<input type="button" value="Login" class="input">
+		<div class="conta">
+			<a class="forg" href="#">Forgot your password?</a>
+		</div>
+
+	</form>
+	<!------------------- Registration Form --------------------->
+
+	<div class="window" id="WindRegistr">
+		<div class="my_reg_form">
+			<h2>Registration</h2>
+
+			<form>
+				<a href="#player" class="closereg">
+					<i class="fas fa-times"></i>
+				</a>
+
+				<input type="text" placeholder="Name" class="input">
+				<input type="text" placeholder="Surname" class="input">
+				<input type="text" placeholder="Country" class="input">
+				<input type="email" placeholder="Email" class="input">
+				<input type="tel" placeholder="Phone number" class="input">
+				<input type="password" placeholder="Password" class="input">
+				<input type="password" placeholder="Repeat password" class="input">
+
+				<div class="contRegistr">
+					<input type="radio" name="a" id="Man">
+					<label for="Man"><a class="concept">Man</a></label>
+					<input type="radio" name="a" id="Woman">
+					<label for="Woman"><a class="concept">Woman</a></label>
+					<div class="OK"></div>
+				</div>
+
+				<input type="button" value="Register" class="input">
+
+				<div class="contRegistr">
+					<input type="checkbox" id="check">
+					<label for="check"><a class="concept">I agree with the terms of this site.</a></label>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<!------------------------Navigation------------------------->
+
+	<header class="header" data-aos="slide-down" data-aos-delay="500">
+		<div class="container">
+			<div class="header_inner">
+				<a class="header_logo" href="#top">Traveler in Belarus</a>
+
+				<nav>
+					<div class="topnav" id="myTopnav">
+						<a class="nav_link" href="#attract">Attractions</a>
+						<a class="nav_link" href="#benef">Benefits</a>
+						<a class="nav_link" href="#rew">Reviews</a>
+						<a class="nav_link" href="#cont">Contacts</a>
+						<a class="nav_link" href="Slider_Page.html">Why Belarus</a>
+						<!-- <a class="nav_link" href="#cont">Contacts</a> -->
+						<a class="nav_link" href="#">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</a>
+						<a class="nav_link" href="#popup">
+							<i class="fas fa-sign-in-alt"></i>
+						</a>
+						<a id="menu" class="icon">&#9776;</a>
+					</div>
+				</nav>
+
+			</div>
+		</div>
+		<div class="header_solid"></div>
+	</header>
+
+	<p><a name="top"></a></p>
+
+	<div class="intro">
+		<div class="container_photo">
+
+			<img class="photo_slider" src="Images/slider1.jpg" alt="">
+			<img class="photo_slider" src="Images/slider2.jpg" alt="">
+			<img class="photo_slider" src="Images/slider3.jpg" alt="">
+			<img class="photo_slider" src="Images/slider4.jpg" alt="">
+
+			<div class="container_slider">
+				<h1 class="slider_header" data-aos="slide-right">If you want to visit a beautiful country, then Belarus is
+					an excellent choice. </h1>
+			</div>
+
+			<div class="subtittle_cont">
+				<h2 class="slider_subtittle" data-aos="slide-left" data-aos-delay="200">Historical places, culture, national
+					cuisine and opportunities for active recreation will interest even the most experienced travelers</h2>
+			</div>
+
+			<div class="cont">
+				<div class="intro_button_cont">
+					<a href="Promo.html" class="intro_button">View promo video</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!------------------2-nd Page--------------------------------------->
+
+	<div class="second_page">
+		<div class="container_header">
+			<p><a name="attract"></a></p>
+			<span class="part1">Sights that a tourist should see in Belarus.</span>
+			<span class="part2">And this is just a part!</span>
+
+		</div>
+
+
+		<div class="block">
+
+			<div class="block_item" data-aos="zoom-in">
+				<img class="block_photo" src="Images/block/block.jpg" alt="">
+				<div class="block_content">
+					<div class="block_tittle">Sapieha palace complex</div>
+					<div class="block_text">Ruzhany, Pruzhany district</div>
+					<div class="block_info">A shipping canal built in the 19th century to create a route from the Black Sea
+						to the Baltic. There are only two steep engineering structures, thought out so cunningly, long ago,
+						and preserved practically in their original form - in Great Britain and Sweden. The length of the
+						canal is 101 km, 22 of them are on the territory of Belarus in the border zone.</div>
+				</div>
+			</div>
+
+			<div class="block_item" data-aos="zoom-in">
+				<img class="block_photo" src="Images/block/block%20(2).jpg" alt="">
+				<div class="block_content">
+					<div class="block_tittle">Borisoglebskaya church</div>
+					<div class="block_text">Grodno</div>
+					<div class="block_info">The Borisoglebskaya or Kolozhskaya church appeared on a pagan heap near the
+						Castle Hill in Grodno back in the 11th century - this is one of the few buildings of the period of
+						Ancient Rus in Belarus, however, notably rebuilt. The church is not plastered on the outside, and
+						therefore you can look at all the engineering solutions of the builders of that time. The church
+						stands on the steep bank of the Nemunas - and the view from there is magical.</div>
+				</div>
+			</div>
+
+			<div class="block_item" data-aos="zoom-in">
+				<img class="block_photo" src="Images/block/block%20(3).jpg" alt="">
+				<div class="block_content">
+					<div class="block_tittle">Slonim synagogue</div>
+					<div class="block_text">Slonim</div>
+					<div class="block_info">Baroque synagogue from 1642, one of the oldest in the country. The synagogue was
+						badly damaged during the war of 1812, but was quickly rebuilt - the Jewish community in Slonim was
+						then considered one of the most powerful in the country. At the end of the 19th century, 21 synagogues
+						operated in the city, and more than 70% of the residents were Jews. In 2000, the building was returned
+						to the believers, but no restoration work was carried out. The building is currently up for sale.
+					</div>
+				</div>
+			</div>
+
+			<div class="block_item" data-aos="zoom-in">
+				<img class="block_photo" src="Images/block/block(4).jpg" alt="">
+				<div class="block_content">
+					<div class="block_tittle">Olmanskie swamps</div>
+					<div class="block_text">Stolin district</div>
+					<div class="block_info">These bogs occupy 75% of the area of the Stolin district - the only complex of
+						upland, transitional and lowland bogs that has survived in our natural state. Ecologists cannot get
+						enough of: 687 plant species, 151 bird species (25 from the Red Book) and 26 mammal species live here.
+						Interestingly, in the 60s of the last century, there was an aviation training ground in Olmani, so
+						there are still unexploded shells and bombs in the swamps.</div>
+				</div>
+			</div>
+
+			<div class="block_item" data-aos="zoom-in">
+				<img class="block_photo" src="Images/block/block(5).jpg" alt="">
+				<div class="block_content">
+					<div class="block_tittle">Bialowieza Forest</div>
+					<div class="block_text">Brest region</div>
+					<div class="block_info">The Belarusian reason for pride is the largest and oldest forest in Europe,
+						protected by UNESCO. Yes, there are bison in the wild here. Yes, you can even hunt them (if you have
+						enough conscience). Yes, it was here that the agreement on the collapse of the USSR was signed. Yes,
+						it is here that the Belarusian Santa Claus lives (his residence works even in the summer - but his
+						grandfather's suit is lightweight). Breathe in the relict air, cut it on a bicycle, feed the bison in
+						the aviary with bread from your hand, drive them to look at the Kamenetskaya Vezha, which is more than
+						700 years old.</div>
+				</div>
+			</div>
+
+			<div class="block_item" data-aos="zoom-in">
+				<img class="block_photo" src="Images/block/block%20(6).jpg" alt="">
+				<div class="block_content">
+					<p><a name="benef"></a></p>
+					<div class="block_tittle">Augustow Canal</div>
+					<div class="block_text">Nemnovo, Grodno region</div>
+					<div class="block_info">A navigable canal built in the 19th century to create a route from the Black Sea
+						to the Baltic. There are only two steep engineering structures, thought out so cunningly, long ago,
+						and preserved almost in their original form - in Great Britain and Sweden. The length of the canal is
+						101 km, 22 of them are on the territory of Belarus in the border zone. Locks, drawbridges, columns -
+						it's amazing how smoothly everything works. You can take a ride on the Neman motor ship, walk along
+						the canal, go to the canal museum, kayak, look at the surviving manor in Svyatsk, created in the 18th
+						century by the Italian architect Giuseppe de Sacco.</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<!---------------------------Advantages---------------------------------->
+
+	<div class="advantages">
+		<div class="container">
+			<div class="advantages_inner">
+
+				<div class="advantages_item" data-aos="flip-up" data-aos-delay="100">
+					<div class="advantages_tittle">
+						Beautiful nature
+					</div>
+					<div class="advantages_text">
+						Learn about the unique natural environment of Belarus
+					</div>
+				</div>
+
+				<div class="advantages_item" data-aos="flip-up" data-aos-delay="400">
+					<div class="advantages_tittle">
+						Rich culture
+
+					</div>
+					<div class="advantages_text">
+						The rich culture of Belarus - originality, a variety of styles, forms, directions ...
+					</div>
+				</div>
+
+				<div class="advantages_item" data-aos="flip-up" data-aos-delay="700">
+					<div class="advantages_tittle">
+						Impressive architecture
+					</div>
+					<div class="advantages_text">
+						Discover Belarusian architecture - ancient castles, temples, unique architectural monuments of
+						different eras and styles
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<p><a name="rew"></a></p>
+	</div>
+
+
+	<!-------------------------------------Comments------------------------------->
+	<div class="comments">
+		<div class="comments_header">Impressions of tourists about Belarus</div>
+		<div class="comments_header2">Best reviews:</div>
+		<div class="container">
+			<div class="comments_inner">
+
+				<div class="comments_item" data-aos="zoom-out-right" data-aos-delay="100">
+					<img class="avatar" src="Images/avatars/default_avatar.png">
+
+					<div class="com_social">
+						<a class="social_item" href="https://www.facebook.com" target="_blank">
+							<img class="social_img" src="Images/icons/facebook.png" alt="">
+						</a>
+						<a class="social_item" href="https://www.instagram.com" target="_blank">
+							<img class="social_img" src="Images/icons/instagram.png" alt="">
+						</a>
+						<a class="social_item">
+							<img class="social_img" src="Images/icons/telegram.png" alt="">
+						</a>
+					</div>
+
+					<div class="com_name">Jack Davies</div>
+					<div class="com_text">I came to Belarus for one week to look at your peculiar Soviet architecture and
+						unique environment. My first impression of Belarus was the incredible hospitality and warmth of the
+						local people.</div>
+
+				</div>
+
+				<div class="comments_item" data-aos="zoom-out-right" data-aos-delay="300">
+					<img class="avatar" src="Images/avatars/default_avatar_female_0_1.png">
+
+					<div class="com_social">
+						<div class="com_social">
+							<a class="social_item" href="https://www.facebook.com" target="_blank">
+								<img class="social_img" src="Images/icons/facebook.png" alt="">
+							</a>
+							<a class="social_item" href="https://www.instagram.com" target="_blank">
+								<img class="social_img" src="Images/icons/instagram.png" alt="">
+							</a>
+							<a class="social_item">
+								<img class="social_img" src="Images/icons/telegram.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="com_name">Jessica Wilson</div>
+					<div class="com_prof"></div>
+					<div class="com_text">I visit Belarus 2 or 3 times a year, coming on business of the Mainz-Minsk
+						partnership and just meeting with Belarusian friends, in whom I, as a German, like their openness and
+						incredible kindness.</div>
+
+				</div>
+
+				<div class="comments_item" data-aos="zoom-out-right" data-aos-delay="500">
+					<img class="avatar" src="Images/avatars/default_avatar.png">
+
+					<div class="com_social">
+						<div class="com_social">
+							<a class="social_item" href="https://www.facebook.com" target="_blank">
+								<img class="social_img" src="Images/icons/facebook.png" alt="">
+							</a>
+							<a class="social_item" href="https://www.instagram.com" target="_blank">
+								<img class="social_img" src="Images/icons/instagram.png" alt="">
+							</a>
+							<a class="social_item">
+								<img class="social_img" src="Images/icons/telegram.png" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="com_name">Charlie Gilbert</div>
+					<div class="com_text">It seems to me that a very important aspect in the tourism sector for Belarus is
+						the naturalistic beauty of your nature (which not everyone knows about in Italy), your forests and
+						rivers crossing cities, which creates a very cozy and relaxing atmosphere in the summer.</div>
+				</div>
+
+				<div class="comments_item" data-aos="zoom-out-right" data-aos-delay="700">
+					<img class="avatar" src="Images/avatars/default_avatar_female_0_1.png">
+
+					<div class="com_social">
+						<div class="com_social">
+							<a class="social_item" href="https://www.facebook.com" target="_blank">
+								<img class="social_img" src="Images/icons/facebook.png" alt="">
+							</a>
+							<a class="social_item" href="https://www.instagram.com" target="_blank">
+								<img class="social_img" src="Images/icons/instagram.png" alt="">
+							</a>
+							<a class="social_item">
+								<img class="social_img" src="Images/icons/telegram.png" alt="">
+							</a>
+						</div>
+					</div>
+					<p><a name="exp"></a></p>
+					<div class="com_name">Isabella Ellington</div>
+					<div class="com_text">The tourism potential of your country is definitely in the beauty and diversity of
+						its nature, unique historical and cultural heritage, as well as in people. I think this is what
+						creates a unique image of the country.</div>
+				</div>
+
+			</div>
+			<p><a name="cont"></a></p>
+		</div>
+
+		<!----------------------------Reviev form------------------------------------------->
+
+		<div class="container__form">
+			<div class="form__inner" data-aos="slide-right">
+				<div class="form__content">
+
+					<div class="form__title-box">
+						<div class="form__title">
+							Share your experience
+						</div>
+					</div>
+
+					<div class="form__box">
+						<form>
+							<div class="form__box-inner">
+
+								<div class="form__box-left">
+
+									<label>
+										E-mail
+										<input placeholder="Jack@mail.ru" type="email" id="comment-email">
+									</label>
+
+									<label>
+										Full name
+										<input placeholder="Jack Wilson" type="text" id="comment-name">
+									</label>
+
+									<a class="hide_button" type="submit" id="hide_but"><i class="fas fa-eye-slash"></i></a>
+
+								</div>
+
+								<div class="form__box-right">
+									<label>
+										Your comment
+										<textarea id="comment-body"></textarea>
+									</label>
+
+									<a class="comment_button" type="submit" id="comment-add">Post a review</a>
+								</div>
+
+							</div>
+						</form>
+					</div>
+
+					<div class="col-lg-6" id="H_class">
+						<div class="com-field" id="comment-field"></div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!------------------------------Footer-------------------------------->
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="container">
+				<div class="footer__inner" data-aos="flip-down">
+
+					<div class="footer__info">
+						<div class="footer__title">Location on the map</div>
+						<div class="footer__text">You can also ask your questions by calling the number or by writing to
+							e-mail:
+						</div>
+
+						<a class="header__str">
+							Free consultation:
+						</a>
+
+						<ul class="footer__list">
+							<li><a class="footer__phone"><img class="footer_img" src="Images/icons/phone-call.png"
+										alt="">+375(29) 17-68-148</a></li>
+
+							<li><a href="#"><img class="footer_img" src="Images/icons/email.png"
+										alt="">travelerinbelarus@mail.ru</a></li>
+
+							<li><a class="footer__adress" href="#"><img class="footer_img" src="Images/icons/map-locator.png"
+										alt="">Минск, ул. Боровая, 10</a></li>
+						</ul>
+
+					</div>
+
+					<div class="footer__map">
+						<iframe height="270px"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822629.4343259027!2d25.75252611039908!3d53.581600395298466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46da2584e2ad4881%3A0xa1d181ec8c10!2z0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sby!4v1608374827141!5m2!1sru!2sby"
+							width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+							tabindex="0"></iframe>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="footer__copy">
+			<div class="container">
+				<div class="copy__text">
+					© 2020 "Traveler in Belarus" - Course work by Vladislav Samokvalov
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="app.js"></script>
+	<script src="SCRIPT.js"></script>
+	<script src="Comments.js"></script>
+	<script src="Preloader.js"></script>
+</body>
+
+</html>
