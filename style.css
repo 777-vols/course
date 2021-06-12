@@ -553,7 +553,7 @@ img:nth-child(4) {
     background: url(Images/luke-chesser-eICUFSeirc0-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    max-height: 300px;
+    max-height: 400px;
     background-size: cover;
     text-align: center;
 }
